@@ -22,10 +22,12 @@ namespace OknoVhoda
         public MainUser()
         {
             InitializeComponent();
+
         }
 
         private void exitClick(object sender, RoutedEventArgs e)
         {
+
             MainWindow exit = new MainWindow();
             exit.Show();
             this.Close();
